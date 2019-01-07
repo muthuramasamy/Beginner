@@ -1,9 +1,10 @@
-n=int(input())
-o=int(input())
-p=int(input())
-if n>p>o:
+n,o,p=map(int,input().split(" "))
+f=0
+if n>=p and n>=o:
 	print(n)
-elif o>p>n:
+	f=1
+elif o>=p and o>=n and f==0:
 	print(o)
-else:
+	f=1
+elif p>=n and p>=o and f==0:
 	print(p)
