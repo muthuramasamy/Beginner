@@ -1,8 +1,7 @@
-a=int(input())
-s1=1
-while a > 0:
-    b=a%10
-    s1=s1*b
-    a=a//10
-print(s1)
-
+n=int(input())
+sum1=1
+while n > 0:
+    b=n%10
+    sum1=sum1*b
+    n=n//10
+print(sum1)
