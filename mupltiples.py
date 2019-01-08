@@ -1,8 +1,6 @@
 a=int(input())
-li=[]
-for i in range(1,6):
-	f=a*i
-	li.append(f)
-for i in range(0,a):
-	print(li[i],end=" ")
- 
+for i in range(1,a+1):
+	if i==a:
+		print(i*a,end="")
+	else:
+		print(i*a,end=" ")
