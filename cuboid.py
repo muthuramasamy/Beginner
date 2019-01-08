@@ -5,5 +5,8 @@ vol=l*b*h
 li.append(sa)
 li.append(vol)
 for i in range(0,len(li)):
-    print(li[i],end=" ")
+	if i==(len(li)-1):
+		print(li[i],end="")
+	else:
+		print(li[i],end=" ")
     
