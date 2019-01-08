@@ -8,7 +8,6 @@ while a>0:
 	b=y**p
 	c=c+b
 	a=a//10
-print(c)
 if a1==c:
 	print("yes")
 else:
