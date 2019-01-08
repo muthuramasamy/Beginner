@@ -1,4 +1,8 @@
 a=int(input())
-for i in range(1,a+1):
+li=[]
+for i in range(1,6):
     f=a*i
-    print(f,end=' ')
+    li.append(f)
+for i in range(0,a+1):
+		print(li[i],end=" ")
+ 
