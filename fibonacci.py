@@ -3,7 +3,7 @@ sum1=0
 i=0
 j=1
 print(j,end=" ")
-for g in range(n):
+for g in range(n-1):
 	sum1=i+j
 	i=j
 	j=sum1
