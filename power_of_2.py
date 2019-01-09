@@ -1,5 +1,5 @@
 n=int(input())
-a=n**2
+a=2**n
 if a%2==0:
 	print('yes')
 else:
