@@ -1,2 +1,2 @@
-a='123'
+a=input()
 print(" ".join(a))
