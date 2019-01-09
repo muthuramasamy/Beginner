@@ -1,8 +1,15 @@
 k,t=map(int,input().split(" "))
-for i in range(k,t):
-    for j in range(2,i):
-        if i%j==0:
-            break
-        else:
-            print(j)
+li=[]
+for i in range(k+1,t):
+	if i>1:
+		for j in range(2,i):
+			if i%j ==0:
+				break
+		else:
+			li.append(i)
+for i in range (0,len(li)):
+	if (li[i]==i):
+		print(li[i],end="")
+	else:
+		print(li[i],end=" ")
   
