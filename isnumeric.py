@@ -1,5 +1,5 @@
-n=int(input())
-a=str(n)
+n=input()
+a=n
 if a.isnumeric():
 	print("yes")
 else:
