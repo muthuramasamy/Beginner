@@ -1,4 +1,4 @@
-n,a,d=map(int,input().split())
+n,a,d=map(int,input().split(" "))
 li=[]
 for i in range(a,n+1,d):
 	li.append(i)
