@@ -7,7 +7,7 @@ for g in range(n-1):
 	sum1=i+j
 	i=j
 	j=sum1
-	if g==n-1:
+	if g==n-2:
 		print(sum1,end="")
 	else:
 		print(sum1,end=" ")
