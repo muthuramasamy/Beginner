@@ -1,3 +1,4 @@
+#Guvi this is brutus
 l=["Monday","Tuesday","Wednesday","Thursday","Friday"]
 m=["Saturday","Sunday"]
 i=input()
