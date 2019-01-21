@@ -1,0 +1,2 @@
+stl=input()
+print(stl+'.')
