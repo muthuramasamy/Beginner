@@ -9,6 +9,6 @@ for i in s1:
 			c=c+1
 		l1.append(i)
 if c>1:
-	print('no')
+	print('No')
 else:
-	print('yes')
+	print('Yes')
